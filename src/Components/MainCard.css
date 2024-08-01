@@ -1,0 +1,47 @@
+
+
+body {
+    background: linear-gradient(to right, #071f09, #0a2c36); /* Background gradient */
+  }
+  
+  .main-container {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .content-container {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+  }
+  
+  .animate-card {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .animate-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+
+  .heading{
+    color: white;
+  }
+  .button-contained {
+    background-color: #ff7e5f;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button-contained:hover {
+    background-color: #feb47b;
+  }
+  
